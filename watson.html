@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <link rel = "stylesheet" type = "text/css" href = "index.css">
+    <meta charset="utf-8"/>
+    <title>Watson Article Analyser</title>
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+</head>
+
+<body>
+    <nav>
+        <div id = "container">
+            <ul>
+                <li><a href = "index.html">Home</a></li>
+                <li><a href = "projects.html">Projects</a></li>
+                <li><a href = "contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div id = "wrapper">
+      <h1>Watson Article Analyser</h1>
+      <div class="form-group">
+        <label for="site">Article URL:</label>
+        <input type="text" class="form-control" id="site">
+        <button type="button" class="btn btn-primary" onclick="submitData()">Submit</button>
+      </div>
+      <!--<p id = "title">Title: </p>
+      <p id = "authors">Author(s): </p>
+      <p id = "concepts">Concepts: </p>
+      <p id = "keywords">Keywords: </p>-->
+      <h3 id = "title"></h2>
+      <h4 id = "authors"></h3>
+      <p id = "s1"></p>
+      <p id = "s2"></p>
+      <p id = "s3"></p>
+      <p id ="shortened"></p>
+    </div>
+    <p style = "text-align: center; padding: 0; margin-top: 50px; font-size: 12px;">&#169;Jeff Rohlman 2016</p>
+    <script src="index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</body>
+</html>
