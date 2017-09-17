@@ -5,5 +5,4 @@ My name is Jeff Rohlman and I'm currently a second year student at the Universit
 ### Addition Links and Resources
 
 [Check out my Resume](resources/resume.pdf)
-
 [Find me on LinkedIn](https://www.linkedin.com/in/jeffrey-rohlman-85ab36126/)
