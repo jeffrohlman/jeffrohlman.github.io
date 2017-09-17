@@ -31,8 +31,8 @@
             <h1>{{ site.title | default: site.github.repository_name }}</h1>
             <h2>{{ site.description | default: site.github.project_tagline }}</h2>
           </span>
-          <span class="left-tail"><h3>Home</h3></span>
-          <span class="right-tail"><h2>Projects</h2></span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
         </span>
       </header>
 
@@ -45,6 +45,7 @@
       {% else %}
         <div id="no-downloads">
           <span class="inner">
+            <a href="_layouts/default.html">HOME</a><a href="_layouts/projects.html">PROJECTS</a>
           </span>
         </div>
       {% endif %}
