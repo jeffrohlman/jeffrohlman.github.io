@@ -4,10 +4,11 @@ window.onload = function(){
 		.done(function(file_content) {
 			console.log("loaded");
 			sidebartext = file_content;
+			sidebar.innerHTML = sidebartext;
 		})
 		.fail(function(){
 			console.log("fail");
 		});
 	var sidebar = document.getElementById("sidebar");
-	sidebar.innerHTML = sidebartext;
+	
 }
