@@ -1,0 +1,15 @@
+#sidebar{
+	height: 100%;
+	width: 200px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	border-right: 1px black solid;
+	padding-top: 20px;
+	overflow-x: hidden;
+}
+
+#content{
+	margin-left: 200px;
+}
