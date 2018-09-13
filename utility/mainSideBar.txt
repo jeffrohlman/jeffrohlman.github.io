@@ -1,2 +1,13 @@
-<h2><a href = "jeffrohlman.com">Home</a></h2>
-<h2><a href = "/projects">Projects</a><h2>
+#Home
+<h3><a href = "/">Home</a></h3>
+<h3><a href = "/projects">Projects</a></h3>
+#
+<h1>Home</h1>
+#
+
+#Projects
+<h3><a href = "/">Home</a></h3>
+<h3><a href = "/projects">Projects</a></h3>
+#
+<h1>Projects</h1>
+#

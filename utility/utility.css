@@ -1,15 +1,43 @@
 #sidebar{
 	height: 100%;
-	width: 200px;
+	width: 150px;
 	position: fixed;
 	z-index: 1;
 	top: 0;
 	left: 0;
 	border-right: 1px black solid;
 	padding-top: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
 	overflow-x: hidden;
 }
 
+#sidebar h3{
+	margin: 0;
+}
+
+#sidebar h3 a{
+	text-decoration: none;
+	color: black;
+}
+
+#notsidebar{
+	margin-left: 172px;
+}
+
+#header{
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	border-bottom: 1px solid black;
+	z-index: 1;
+	overflow-x: hidden;
+}
+
+#header h1{
+	margin: 0;
+}
+
 #content{
-	margin-left: 200px;
+	padding: 20px;
 }
